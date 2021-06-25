@@ -758,7 +758,7 @@ describe('munge functions', () =>
       'longitude': '-122.3300624'
     };
     
-    const locationData = [{
+    const location = [{
       'place_id': '235549103',
       'licence': 'https://locationiq.com/attribution',
       'osm_type': 'relation',
@@ -940,8 +940,8 @@ describe('munge functions', () =>
       'importance': 0.101
     }];
     
-    const data = mungeLocations(locationData);
+    const data = mungeLocations(location);
 
-    expect(data.body).toEqual(expectation);
+    expect(data).toEqual(expectation);
   });
 });
