@@ -1,0 +1,13 @@
+{
+    "editor.cursorStyle": "block",
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnType": true,
+    "terminal.integrated.cursorBlinking": true,
+    "html.format.wrapAttributes": "aligned-multiple",
+    "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "html.format.unformatted": "",
+    "html.format.endWithNewline": true,
+    "html.format.indentInnerHtml": true,
+    "editor.cursorBlinking": "expand"
+}
