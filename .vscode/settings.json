@@ -9,5 +9,8 @@
     "html.format.unformatted": "",
     "html.format.endWithNewline": true,
     "html.format.indentInnerHtml": true,
-    "editor.cursorBlinking": "expand"
+    "editor.cursorBlinking": "expand",
+    "prettier.alignObjectProperties": true,
+    "prettier.arrayExpand": true,
+    "prettier.jsxSingleQuote": true
 }
