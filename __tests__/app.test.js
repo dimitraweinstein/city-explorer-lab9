@@ -28,13 +28,22 @@ describe('app routes', () => {
     test('returns weather data', async() => {
 
       const expectation = [
-        {
-          'forecast': 'Partly cloudy until afternoon.',
-          'time': 'Tuesday, June 29, 2021'
-        }, {
-          'forecast': 'Mostly cloudy in the morning.',
-          'time': 'Wednesday, June 30, 2021'
-        },
+        { 'forecast': 'Few clouds', 'time': 'Friday, June 25, 2021', },
+        { 'forecast': 'Clear Sky', 'time': 'Saturday, June 26, 2021', },
+        { 'forecast': 'Clear Sky', 'time': 'Sunday, June 27, 2021', },
+        { 'forecast': 'Clear Sky', 'time': 'Monday, June 28, 2021', },
+        { 'forecast': 'Clear Sky', 'time': 'Tuesday, June 29, 2021', },
+        { 'forecast': 'Few clouds', 'time': 'Wednesday, June 30, 2021', },
+        { 'forecast': 'Clear Sky', 'time': 'Thursday, July 1, 2021', },
+        { 'forecast': 'Few clouds', 'time': 'Friday, July 2, 2021', },
+        { 'forecast': 'Clear Sky', 'time': 'Saturday, July 3, 2021', },
+        { 'forecast': 'Broken clouds', 'time': 'Sunday, July 4, 2021', },
+        { 'forecast': 'Broken clouds', 'time': 'Monday, July 5, 2021', },
+        { 'forecast': 'Broken clouds', 'time': 'Tuesday, July 6, 2021', },
+        { 'forecast': 'Broken clouds', 'time': 'Wednesday, July 7, 2021', },
+        { 'forecast': 'Clear Sky', 'time': 'Thursday, July 8, 2021', },
+        { 'forecast': 'Clear Sky', 'time': 'Friday, July 9, 2021', },
+        { 'forecast': 'Scattered clouds', 'time': 'Saturday, July 10, 2021', },
       ];
 
       const data = await fakeRequest(app)
